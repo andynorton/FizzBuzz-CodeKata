@@ -10,7 +10,12 @@ namespace FizzBuzz_CodeKata
     {
         static void Main(string[] args)
         {
-           
+            var fizzBuzz = new FizzBuzz();
+            for(int i = 1; i <=100; i++)
+            {
+                Console.WriteLine(fizzBuzz.DoFizzBuzz(i));
+            }
+            Console.ReadLine();
         }
 
         

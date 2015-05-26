@@ -33,7 +33,7 @@ namespace FizzBuzz_CodeKata
             return number % 5 == 0;
         }
 
-        public bool DivisibleByThree(int number)
+        private bool DivisibleByThree(int number)
         {
             //using modulo to figure out multiple
             return number % 3 == 0;
