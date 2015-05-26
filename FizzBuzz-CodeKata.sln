@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz-CodeKata", "FizzBuzz-CodeKata\FizzBuzz-CodeKata.csproj", "{A85A36EE-4ADC-4C72-AF8A-80669AA2691E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz-CodeKata.Test", "FizzBuzz-CodeKata.Tests\FizzBuzz-CodeKata.Test.csproj", "{49079511-1338-4952-8FC9-E21043883F85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A85A36EE-4ADC-4C72-AF8A-80669AA2691E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A85A36EE-4ADC-4C72-AF8A-80669AA2691E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A85A36EE-4ADC-4C72-AF8A-80669AA2691E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49079511-1338-4952-8FC9-E21043883F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49079511-1338-4952-8FC9-E21043883F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49079511-1338-4952-8FC9-E21043883F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49079511-1338-4952-8FC9-E21043883F85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
