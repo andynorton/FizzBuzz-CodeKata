@@ -75,6 +75,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FizzBuzz-CodeKata\FizzBuzz-CodeKata.csproj">
+      <Project>{a85a36ee-4adc-4c72-af8a-80669aa2691e}</Project>
+      <Name>FizzBuzz-CodeKata</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
